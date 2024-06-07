@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sedan+SC&display=swap');
+/*ESTILOS PARA TODOS LOS ELEMENTOS HTML*/
+*
+{
+	/*box-sizing sirve para cuando le agregemos espacios internos no se hagan crecer
+	 a los box sino que se agregen hacia adentro*/
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+ font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+	 scroll-behavior: smooth;
+   position: flex;
+}
+#aa{
+ margin: 10px;
+  padding-top:50px ;
+}
+#a4{
+  width: 210px;
+  height: 297px;
+}
+#a4:hover{
+  width: 21cm;
+  height: 30cm;
+}
+i{
+  color: white;
+}
+.landingtext h2{
+  width: 100%;
+  
+}
+.landingtext{
+  width: 100%;
+  
+}
+
+header{
+  
+}
+
+header .container{
+  position: fixed;
+    
+    margin: 20px 16px;
+    padding: 15px 0;
+    right: 0;
+    z-index: 4000;
+}
+
+header .container a{
+color: white;
+text-decoration: none;
+margin-left:15px;
+margin-right: 15px;
+position: relative; 
+   z-index: 500001;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: auto;
+    }
+
+
+.verMas{
+	margin-bottom:150px;
+	    }
+	    .image {
+	          position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    transition: all 0.5s ease;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.fixed {
+position: fixed;
+
+z-index: 4000;
+height: 100px;
+left: 50px;
+top: 50px;
+padding: 18Px;
+}
+
+
+
+
+.titulo{
+  margin-top: 4.6em;
+}
+h1{
+	color: white; 
+
+   margin: 2.67em 0;
+
+}
+
+h2{
+	color: white; 
+}
+
+.footer {
+background-color: #D56E00;  
+padding: 20px;
+text-align: center;
+display: grid;
+grid-template-columns: repeat(4, 1fr);  
+}
+
+.footer a {
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .icon {
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+button img{
+width: 80px;
+}
+.animate__animated.animate__bounceIn {
+--animate-duration: 10s;
+}
+.animate__animated.animate__heartBeat{
+--animate-duration: 30s;
+}
+.animate__animated.animate__zoomIn{
+--animate-duration:8s;
+}
+.animate__animated.animate__tada{
+
+--animate-duration:8s;
+}
+p{
+color: white;
+}
+
+body
+{
+background: #000;
+min-height: 200vh;
+overflow-x: hidden;
+text-align: center;
+}
+
+#botones1{
+margin-top:120px;
+}
+
+#fondoNegro{
+height: 120px;
+}
+
+#fondoNaranja{
+height: 120px;
+background-color: #ff9800;
+
+}
+
+.seccion1{
+height: 200vh;
+  background: linear-gradient(to bottom, black, #ff9800);
+}
+
+.seccion1 h2{
+margin-top: 120px;
+}
+
+.seccion2{
+height: 200vh;
+  background: linear-gradient(to bottom,  #ff9800, #ff9800);
+}
+
+.seccion3{
+height: 200vh;
+  background: linear-gradient(to bottom,  #ff9800, black);
+}
+
+section
+{
+position: relative;
+width: 100%;
+min-height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+section::before
+{
+content: '';
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 150px;
+background: linear-gradient(to top, #1c093b, transparent);
+z-index:100;
+}
+
+
+.sec
+{
+position: relative;
+padding: 100px;
+background:#000;
+color: white;
+
+
+}
+
+
+
+.sec h2
+{
+font-size: 3.5em;	
+margin-bottom: 10px;
+
+}
+
+.sec p
+{
+font-size: 1.2em;
+
+}
+
+.cards {
+display: flex;
+flex-direction: ;
+gap: 15px;
+justify-content: center;
+padding-top: 41px;
+
+}
+
+.cards .red {
+background-color: #B95700;
+}
+
+.cards .blue {
+background-color: #D56E00;
+}
+
+.cards .green {
+background-color: #F28500;
+}
+
+.cards .card {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+height: 100px;
+width: 250px;
+border-radius: 10px;
+color: white;
+cursor: pointer;
+transition: 400ms;
+}
+.cards .card.active{
+background-color: #2980b9;
+}
+.cards .card p.tip {
+font-size: 1em;
+font-weight: 700;
+}
+
+.cards .card p.second-text {
+font-size: .7em;
+}
+
+.cards .card:hover {
+transform: scale(1.1, 1.1);
+}
+
+.cards:hover > .card:not(:hover) {
+filter: blur(10px);
+transform: scale(0.9, 0.9);
+}
+
+
+.shadow__btn {
+padding: 10px 20px;
+border: none;
+font-size: 17px;
+color: #fff;
+border-radius: 7px;
+letter-spacing: 4px;
+font-weight: 700;
+text-transform: uppercase;
+transition: 0.5s;
+transition-property: box-shadow;
+align-items: initial;
+margin: 57px;
+display: initial;
+background: darkslategrey;
+
+
+box-shadow: 0 0 25px darkslategrey;
+}
+
+}
+
+.shadow__btn {
+}
+
+.shadow__btn:hover {
+box-shadow: 0 0 5px darkslategrey,
+          0 0 25px  darkslategrey,
+          0 0 50px darkslategrey,
+          0 0 100px darkslategrey;
+}
+
+.shadow__btn2{
+padding: 10px 20px;
+border: none;
+font-size: 17px;
+color: #fff;
+border-radius: 7px;
+letter-spacing: 4px;
+font-weight: 700;
+text-transform: uppercase;
+transition: 0.5s;
+transition-property: box-shadow;
+align-items: initial;
+margin: 57px;
+display: initial;
+background: darkolivegreen ;
+box-shadow: 0 0 25px darkolivegreen;
+
+}
+
+.shadow__btn2{
+}
+
+.shadow__btn2:hover {
+box-shadow: 0 0 5px darkolivegreen,
+          0 0 25px  darkolivegreen,
+          0 0 50px darkolivegreen,
+          0 0 100px darkolivegreen;
+}
+
+#a{
+animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 50s;
+
+}
+#b{
+animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 20s;
+
+}
+#c{
+animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 13s;
+
+}
+#d{
+animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 70s;
+
+}
+#e{
+animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 20s;
+
+}
+#f{
+
+}
+
+main{
+margin-bottom: 80px;
+}
+
+header .hamb{
+display: none;
+}
+
+@media(max-width: 1100px){
+.footer{
+   grid-template-columns: unset;
+}
+header .hamb{
+display: block;
+color: white;
+font-size: 40px;
+}
+header .container {
+margin: 14px 16px;
+z-index: 8000;    
+}
+
+header nav{
+position: fixed;
+width: 100%;
+height: 100%;
+background-color: black;
+padding-top: 80px;
+padding-bottom: 80px;
+padding-left: 15px;
+padding-right: 15px;
+top: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+z-index: 500;
+transition: all 0.4s ease;
+transform: translateX( 100%);
+}  
+
+header nav.open{
+transform: translateX( 0%);
+z-index: 50000;
+} 	
+
+ header nav a{
+font-size: 30px;
+margin: 20px 0px;
+}  
+
+.logo1{
+
+}
+
+.logo2
+{
+
+}
+
+.cards {
+	display: grid;
+    gap: 15px;
+    justify-content: center;
+  }
+
+main {
+    margin-right: 11px;
+        margin-left: 11px;
+      padding-top: 22px;
+      position: relative ;
+  }
+
+header {
+  position: initial;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: inline;
+  z-index: 300;
+}
+
+}
