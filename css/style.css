@@ -70,13 +70,14 @@ position: relative;
 .verMas{
 	margin-bottom:150px;
 	    }
-	    .image {
-	          position: absolute;
-      top: 50%;
-          left: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    transition: all 0.5s ease;
+
+.image {
+      position: absolute;
+top: 49vh;
+  left: 50%;
+transform: translate(-50%, -50%);
+height: 200px;
+transition: all 0.5s ease;
 }
 
 
@@ -246,6 +247,7 @@ font-size: 1.2em;
 
 .cards {
 display: flex;
+flex-direction: ;
 gap: 15px;
 justify-content: center;
 padding-top: 41px;
