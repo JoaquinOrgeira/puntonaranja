@@ -15,7 +15,7 @@
 }
 #aa{
  margin: 10px;
-  padding-top:50px ;
+  padding-bottom:50px ;
 }
 #a4{
   width: 210px;
@@ -113,6 +113,10 @@ h2{
 	color: white; 
 }
 
+h3{
+  color: white;
+}
+
 .footer {
 background-color: #D56E00;  
 padding: 20px;
@@ -165,12 +169,21 @@ text-align: center;
 }
 
 #botones1{
-margin-top:120px;
+margin-top:10px;
 }
 
 #fondoNegro{
-height: 120px;
+height: ;
+padding-left: 80px;
+padding-right: 80px;
 }
+#fondoNegro p{
+margin-top: 10px;
+margin-bottom: 20px;
+  font-size: 35px;
+    margin: 100px;
+}
+
 
 #fondoNaranja{
 height: 120px;
@@ -181,10 +194,10 @@ background-color: #ff9800;
 .seccion1{
 height: 200vh;
   background: linear-gradient(to bottom, black, #ff9800);
+      padding: 80px;
 }
 
 .seccion1 h2{
-margin-top: 120px;
 }
 
 .seccion2{
@@ -403,6 +416,17 @@ display: none;
 .footer{
    grid-template-columns: unset;
 }
+#fondoNegro{
+height: ;
+padding-left: 5px;
+padding-right: 5px;
+}
+#fondoNegro p{
+  font-size: 25px;
+  margin: 20px;
+}
+
+
 header .hamb{
 display: block;
 color: white;
