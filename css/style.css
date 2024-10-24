@@ -172,12 +172,12 @@ text-align: center;
 margin-top:10px;
 }
 
-#fondoNegro{
+#QuienesSomos{
 height: ;
 padding-left: 80px;
 padding-right: 80px;
 }
-#fondoNegro p{
+#QuienesSomos p{
 margin-top: 10px;
 margin-bottom: 20px;
   font-size: 35px;
@@ -416,12 +416,12 @@ display: none;
 .footer{
    grid-template-columns: unset;
 }
-#fondoNegro{
+#QuienesSomos{
 height: ;
 padding-left: 5px;
 padding-right: 5px;
 }
-#fondoNegro p{
+#QuienesSomos p{
   font-size: 25px;
   margin: 20px;
 }
