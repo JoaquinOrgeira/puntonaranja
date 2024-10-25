@@ -165,7 +165,7 @@ color: white;
 body
 {
 background: #000;
-min-height: 200vh;
+min-height: ;
 overflow-x: hidden;
 text-align: center;
 }
@@ -186,6 +186,18 @@ margin-bottom: 20px;
     margin: 100px;
 }
 
+#textito{
+height: ;
+padding-left: 80px;
+padding-right: 80px;
+}
+
+#textito p{
+margin-top: 10px;
+margin-bottom: 20px;
+  font-size: 35px;
+    margin: 100px;
+}
 
 #fondoNaranja{
 height: 120px;
