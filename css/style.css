@@ -523,10 +523,10 @@ fixed{
 }
 .image{
   height: 100px;
+ left: 35px;
+  top: 45px;
 	
 }
 .fixed{
-  left: 35px;
-  top: 45px;
-}
+ }
 }
