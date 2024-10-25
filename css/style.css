@@ -517,8 +517,13 @@ header {
   display: inline;
   z-index: 300;
 }
+fixed{
+	left:20px;
+	right:20px;
+}
 .image{
   height: 100px;
+	
 }
 .fixed{
   left: 35px;
