@@ -519,11 +519,8 @@ header {
 }
 
 .image{
-  height: 100px;
- left: 35px;
-  top: 45px;
-transform: translate(-50%, -50%);
-    
+  height: 110px;
+
 }
 .fixed{
  }
